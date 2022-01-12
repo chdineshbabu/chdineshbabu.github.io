@@ -1,0 +1,342 @@
+/*font-family: 'Clicker Script', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tomorrow', sans-serif;*/
+body{
+  scroll-behavior: smooth;
+}
+.home {
+  background-color: #1c1d25;
+
+  color: #fff;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 200px;
+}
+.navbar-nav > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #b0b2c3;
+
+}
+
+.hero {
+  /*
+  background-color: #1c1d25;
+  background-image: url(./src/D-background.png);
+  background-size: contain;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-position-x: 50%;
+  background-position-y: center;
+}*/
+}
+
+.hero-text-2 {
+  font-family: "Clicker Script", cursive;
+  font-size: 40px;
+  line-height: 63px;
+  text-align: center;
+}
+.hero-text-1 {
+  font-family: "Cormorant SC", serif;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.hero-text-p {
+  font-family: "Inconsolata", monospace;
+  font-size: 15px;
+  line-height: 50px;
+}
+.about-us {
+  background-color: #ebebeb;
+  padding: 6%;
+  color: black;
+}
+
+.about-content {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10px;
+}
+.contdainer {
+  padding: 25px;
+}
+.contdainer img {
+  border: 3px solid #1c1d25;
+  border-radius: 100%;
+  border-style: double;
+  height: 200px;
+  width: 200px;
+}
+
+.sub-head {
+  font-family: "Tomorrow", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.head {
+  font-family: "Tomorrow", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 10px;
+}
+.skills {
+  background-color: #1c1d25;
+  color: #b0b2c3;
+}
+.container {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.skills-img {
+  padding: 4%;
+}
+
+.skill-content {
+  padding-top: 5%;
+}
+.skill-progress {
+  padding-left: 10%;
+  padding-right: 10%;
+  border-bottom-width: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-top-width: 10%;
+  border: 3px solid #ebebeb;
+  border-radius: 20px;
+}
+.work {
+  background-color: #ebebeb;
+}
+.card {
+  color: #ebebeb;
+}
+.more {
+  font-family: "Tomorrow", sans-serif;
+  text-align: end;
+}
+.card img {
+  image-rendering: optimizeSpeed;
+}
+.contact {
+  background-color: #1c1d25;
+  color: #ebebeb;
+}
+/*------------------social bars--------------------*/
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.2em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+  padding: 20px;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #292727;
+}
+
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
+  color: #242222;
+  background: #fefefe;
+  border-color: #2e2c2c;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+/*                       social bars                         */
+/*-------------------Button-------------------------*/
+
+
+.botn {
+  padding: 12px 24px;
+  border:0;
+  border:2px solid rgb(240, 239, 239);
+  border-radius: 4px;
+  background: #1c1d25;
+  outline: 0; 
+  transition: 0.2s;
+  color: #ebebeb;
+}
+.botn-fill {
+  transition: 0.2s ease-in-out; !important
+}
+.botn-fill:hover{
+  color:rgb(0, 0, 0);
+  box-shadow: 0 0 50px 50px #ebebeb inset,0 0 10px #333;
+}
+
+/*----------------------Button-------------------------*/
+
+/*------------------------navbar-----------------*/
+
+.nav-item a{
+  text-decoration:none;
+  color:#4d4d4d;
+  
+  display:block;
+  
+  position:relative;
+  text-transform:uppercase;
+  margin:0 10px;
+  transition: all .5s;
+} 
+.nav-item a:hover{
+  background-color:#e91e63;
+  color:white;
+}
+.nav-item a:before{
+  content:'';
+  position:absolute;
+  bottom:12px;
+  left:12px;
+  width:12px;
+  height:12px;
+  border:3px solid #e91e63;
+  border-width:0 0 3px 3px;
+  opacity:0;
+  transition:all 0.3s;
+}
+.nav-item a:hover:before{
+  opacity:1;
+  bottom:-7px;
+  left:-7px;
+}
+.nav-item a:after{
+  content:'';
+  position:absolute;
+  top:12px;
+  right:12px;
+  width:12px;
+  height:12px;
+  border:3px solid #e91e63;
+  border-width:3px 3px 0 0;
+  opacity:0;
+  transition: all 0.3s;
+}
+.nav-item a:hover:after{
+  opacity:1;
+  top:-7px;
+  right:-7px;
+}
+}
+/*-------------------typing effect---------------*/
+
+.typing-text::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  } 50% {
+    opacity: 1;
+  }
+}
+
+.conte{
+  padding: 20px;
+}
